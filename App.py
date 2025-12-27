@@ -1,5 +1,26 @@
 import streamlit as st
 from datetime import datetime
+st.markdown("""
+<style>
+/* Background */
+.stApp {
+    background-color: #fff0f6;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #ff69b4;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #d63384;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # =========================
 # PAGE CONFIG
